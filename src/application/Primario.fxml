@@ -30,14 +30,16 @@
               </columnConstraints>
               <rowConstraints>
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
                <children>
-                  <Button fx:id="botonRojo" mnemonicParsing="false" onAction="#cambioArojo" text="RED" GridPane.halignment="CENTER" />
-                  <Button fx:id="botonVerde" mnemonicParsing="false" onAction="#cambioAverde" text="GREEN" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
-                  <Button fx:id="botonAzul" mnemonicParsing="false" onAction="#cambioAazul" text="BLUE" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                  <Button fx:id="botonRojo" mnemonicParsing="false" text="ROJO" GridPane.halignment="CENTER" />
+                  <Button fx:id="botonAmarillo" mnemonicParsing="false" text="AMARILLO" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                  <Button fx:id="botonVerde" mnemonicParsing="false" text="VERDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                  <Button fx:id="botonAzar" mnemonicParsing="false" text="Al AZAR" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                </children>
             </GridPane>
          </children>
